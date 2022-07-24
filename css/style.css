@@ -1,0 +1,368 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --dark: #19283f;
+  --gre: #0e84cf;
+  --red-btn: #4750d9;
+  --yallow: #ffc400;
+  --selver: white;
+  --blue: #4398a7;
+}
+.nav {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-btn {
+  background-color: var(--yallow);
+  color: var(--selver);
+  transition: 0.3s;
+  width: 180px;
+  padding: 10px;
+}
+.main-btn:hover {
+  background: var(--selver);
+  color: var(--yallow);
+}
+.search {
+  width: 70px;
+  margin-right: 7px;
+  padding: 0px;
+  height: 40px;
+  background: var(--gre);
+  line-height: 30px;
+}
+.home {
+  background-image: linear-gradient(180deg, #0298ab 0%, #000f24 100%);
+  opacity: 0.73;
+}
+.select {
+  width: 97%;
+  background: transparent;
+  color: var(--selver);
+}
+.select option {
+  background: black;
+  color: var(--selver);
+}
+.textabout svg {
+  color: var(--blue);
+  font-size: 40px;
+  margin-left: 10px;
+}
+.about p,
+h3 {
+  margin-right: 40px;
+  color: var(--blue);
+}
+.about a {
+  background-color: var(--blue);
+}
+.textabout p {
+  color: var(--blue);
+  font-weight: bold;
+}
+.about img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+.about img:nth-child(1) {
+  margin-left: 400px;
+}
+.about img:nth-child(2) {
+  margin-right: 170px;
+}
+.about img:nth-child(3) {
+  margin-right: 400px;
+}
+hr {
+  background-color: var(--blue);
+  padding: 1.5px;
+}
+@media (max-width: 700px) {
+  .about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  .about img:nth-child(1) {
+    margin-left: 170px;
+  }
+  .about img:nth-child(2) {
+    margin-right: 90px;
+  }
+  .about img:nth-child(3) {
+    margin-right: 170px;
+  }
+}
+/* /////////////////////////////////////// */
+.servisces h1 {
+  color: var(--blue);
+}
+.servisces hr {
+  width: 200px;
+}
+.mycard {
+  border: 1px solid var(--blue);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 0 10px 5px;
+}
+.mycard svg {
+  color: var(--blue);
+  font-size: 30px;
+}
+span {
+  color: var(--blue);
+  font-size: 50px;
+}
+.mycard h2 {
+  font-size: 25px;
+  color: var(--blue);
+}
+.slide {
+  width: 900px;
+}
+@media (max-width: 700px) {
+  .slide {
+    width: 100%;
+  }
+}
+.slidess h1 {
+  color: var(--blue);
+}
+.slidess img {
+  border-radius: 10px;
+}
+/* ///////////////////////////////////num */
+.num {
+  font-size: 30px;
+}
+.nums {
+  font-size: 20px;
+  color: var(--blue);
+}
+.nums svg {
+  font-size: 30px;
+}
+/* /////////////////////////////////////////////feadback */
+.feedback h1 {
+  color: var(--blue);
+}
+.feedback .carousel-inner {
+  height: 300px;
+}
+.feedback .carousel-item {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 0 var(--dark);
+  padding: 5px;
+}
+/* //////////////////////////////////footer */
+footer {
+  background-color: var(--blue);
+}
+footer svg {
+  font-size: 30px;
+  margin: 5px;
+}
+footer a:nth-child(1) {
+  color: #0e84cf;
+}
+footer a:nth-child(2) {
+  color: green;
+}
+footer a:nth-child(3) {
+  color: rebeccapurple;
+}
+footer a:nth-child(4) {
+  color: rgb(0, 174, 255);
+}
+footer a:nth-child(5) {
+  color: red;
+}
+
+/* ///////////////////////////////////////////////////////page two */
+input[type="date"],
+[type="text"],
+[type="number"],
+[type="password"] {
+  width: 97%;
+  color: white;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background: transparent;
+}
+::placeholder {
+  color: white;
+  opacity: 1;
+  padding-right: 25px;
+}
+input[type="checkbox"] {
+  width: 20px;
+}
+.formbage2 svg {
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+/* //////////////////////////////////// bank */
+
+.logspay img {
+  width: 180px;
+  box-shadow: 0 5px 10px 0 var(--dark);
+  border-radius: 10px;
+}
+.formsahar {
+  width: 100%;
+  height: 550px;
+  background-image: url(../img/275560033_713598199811335_7510868844868351064_n.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.formsahar input[type="password"] {
+  background-color: transparent;
+}
+
+.formmskt {
+  background-image: url(../img/277231132_1111948012925969_5077583905490758985_n.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.formmskt input[type="text"] {
+  background-color: rgba(255, 0, 0, 0.425);
+  width: 90%;
+  margin-right: 15px;
+}
+.formmskt input[type="password"] {
+  background-color: rgba(255, 0, 0, 0.425);
+  width: 90%;
+  margin-right: 15px;
+}
+.formmskt input[type="checkbox"] {
+  margin-right: 15px;
+}
+.formmskt input[type="submit"] {
+  background-color: red;
+}
+/* 
+//////////////////////////// */
+.formdhofar input {
+  background-color: rgba(201, 201, 201, 0.377);
+  color: black;
+}
+.formdhofar ::placeholder {
+  color: black;
+}
+.formdhofar input[type="password"] {
+  background-color: rgba(201, 201, 201, 0.377);
+}
+.formdhofar input[type="submit"] {
+  background-color: rgb(60, 255, 0);
+}
+/* ////////////////////////////// */
+.formdnizwa {
+  background-image: url(../img/277232160_723495821977684_2980487186829323725_n.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.formdnizwa input {
+  background-color: rgba(201, 201, 201, 0.377);
+  color: black;
+}
+.formdnizwa input[type="password"] {
+  background-color: rgba(201, 201, 201, 0.377);
+}
+.formdnizwa ::placeholder {
+  color: black;
+}
+.formdnizwa input[type="submit"] {
+  background-color: rgb(163, 31, 252);
+  color: white;
+}
+/* /////////////////////////////// formnbo */
+.formnbo {
+  background-image: url(../img/276163378_5641591199190630_2890486626348057746_n.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.formnbo input {
+  background-color: white;
+  color: black;
+}
+.formnbo ::placeholder {
+  color: black;
+}
+.formnbo input[type="submit"] {
+  background-color: var(--blue);
+  color: white;
+}
+/* //////////////////////////////////////////////formhousing */
+.formhousing {
+  background-image: url(../img/277337940_277046401268199_1783809793485408877_n.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.formhousing input[type="text"] {
+  background-color: rgba(2, 96, 184, 0.87);
+  width: 60%;
+  margin-right: 60px;
+}
+.formhousing input[type="password"] {
+  background-color: rgba(2, 96, 184, 0.87);
+  width: 60%;
+  margin-right: 60px;
+}
+.formhousing input[type="checkbox"] {
+  margin-right: 60px;
+}
+.formhousing input[type="submit"] {
+  background-color: rgb(196, 111, 0);
+}
+/* ////////////////////////////////////formarab */
+.formarab {
+  background-image: url(../img/277260792_694838821760673_4869720689273363364_n.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.formarab ::placeholder {
+  color: black;
+}
+.formarab input[type="text"],
+input[type="password"] {
+  background-color: white;
+}
+.formarab input[type="submit"] {
+  background-color: rgba(46, 154, 255, 0.87);
+}
+.imgarab {
+  margin-top: -55px;
+}
+/* //////////////////////////////////////confirm */
+.confirmsection {
+  padding: 15px;
+}
+.confirmdiv {
+  border: 4px solid var(--blue);
+  border-radius: 10px;
+}
+.confirmdiv svg {
+  color: var(--blue);
+  font-size: 100px;
+}
+.confirmdiv input[type="text"] {
+  border: 2px solid var(--blue);
+  width: 50%;
+  color: black;
+}
+.confirmdiv input[type="submit"] {
+  background-color: var(--blue);
+}
+.confirmdiv ::placeholder {
+  color: var(--blue);
+}
